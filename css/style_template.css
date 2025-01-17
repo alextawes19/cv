@@ -1,17 +1,22 @@
 /* General Styles */
 body {
     margin: 0px;
-    background-color: #EEEEEE;
+    background-color: #f5f5f5;
 }
 
 p.nav {
     margin: 10px;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
 } 
 
 /* Nav Styles */
 nav {
     margin: 0px;
-    background-color: #DC5F00;
+    background-color: #677D6A;
     border-radius: 0px; /* round off corners */
     justify-content: space-between;
     display: flex; /* equally space items */
@@ -26,7 +31,7 @@ nav a:hover {}
 /* Footer Styles */
 footer {
     margin: 0px;
-    background-color: #DC5F00;
+    background-color: #677D6A;
     border-radius: 0px;
     display: flex;
     justify-content: center;
@@ -42,17 +47,33 @@ footer a:hover {}
 }
 
 .splash h1 {
-    color: #26282c;
+    color: #181C14;
     display: flex;
     justify-content: center;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.splash img {}
+.splash img {
+    margin-left: 910px;
+    border-radius: 80px;
+}
 
-.splash p {}
+.splash p {
+    display: flex;
+    justify-content: center;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
 
 /* Horizontal Rules */
-hr {}
+hr {
+
+}
 
 /* Sections */
 section {}
