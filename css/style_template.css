@@ -57,7 +57,7 @@ footer a:hover {}
 }
 
 .splash img {
-    margin-left: 910px;
+    margin-left: 650px;
     border-radius: 80px;
 }
 
@@ -72,14 +72,25 @@ footer a:hover {}
 
 /* Horizontal Rules */
 hr {
-
+    border-top: 3px solid #677D6A;
+    border-radius: 15px;
 }
 
 /* Sections */
-section {}
+section {
+    margin: 20px;
+    margin-left: 40px;
+    
+}
 
 /* Section Headings */
-section h2 {}
+section h2 {
+    color: #181C14;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* Paragraph Styles */
 section p {}
