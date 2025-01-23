@@ -57,7 +57,7 @@ footer a:hover {}
     justify-content: center;
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 28px;
 }
@@ -105,11 +105,11 @@ section {
 
 /* Section Headings */
 section h2 {
-    color: #181C14;
-    font-family: "Domine", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+    color: #000000;
+    font-family: "STIX Two Text", serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
 }
 
 /* Paragraph Styles */
