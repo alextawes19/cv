@@ -100,34 +100,87 @@ hr {
 section {
     margin: 20px;
     margin-left: 40px;
-    
 }
 
 /* Section Headings */
 section h2 {
+    margin: 0px;
     color: #000000;
     font-family: "STIX Two Text", serif;
-     font-optical-sizing: auto;
-     font-weight: 500;
-     font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* Paragraph Styles */
-section p {}
+section p {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+b {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 670;
+    font-style: normal;
+    font-size: 16px;
+}
+
+ul.education {
+    list-style-type: square;
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
 
 /* link styles */
-section a {}
-section a:hover {}
+section a {
+    color: #000000;
+    text-decoration: none;
+    target-name:new;
+    target-new:tab;
+}
+section a:hover {
+    color:#677D6A;
+    font-size: 18px;
+}
 
 /* List Styles */
-ul {}
+ul {
+    list-style-type: square;
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
 
-dl {}
-dl dt{}
-dl dd{}
+dl {
+    display: grid;
+}
+dl dt {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+dl dd {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
 
 /* Project Section */
-.three-col {}
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
 
 .card {}
 
