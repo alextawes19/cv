@@ -188,16 +188,16 @@ dl dd {
     align-items: center;
     flex-direction: column;
     background-color: #f4f4f4;
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 10px;
     transition: transform 0.4s, box-shadow 0.4s;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 .card img {
@@ -205,7 +205,23 @@ dl dd {
     border-radius: 10px;
 }
 
-.card h3 {}
+.card h3 {
+    justify-content: center;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+} 
+
+ul.ulCard {
+    list-style-type: square;
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
 
 /* Contact Page Styles */
 .one-col {
