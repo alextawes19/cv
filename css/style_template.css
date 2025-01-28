@@ -3,16 +3,6 @@ body {
     margin: 0px;
     background-color: #c3c3be;
 }
-.projects {
-    background-color: #c3c3be;
-}
-.projects h2 {
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-}
 
 /* Nav Styles */
 nav {
@@ -50,6 +40,7 @@ footer {
     background-color: #677D6A;
     display: flex;
     justify-content: center;
+    gap: 10px;
     font-family: "Newsreader", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -58,12 +49,16 @@ footer {
 }
 
 footer a {
-    
+    color: #000000;
+    text-decoration: none;
 }
 
-footer a:hover {}
+footer a:hover {
+    color: #F8E1B7;
+    font-style: bold;
+}
 
-/* Splash Section */
+/* ======= Splash Section ======= */
 .splash {
     margin: 20px;
 }
@@ -107,26 +102,24 @@ footer a:hover {}
     font-size: 18px;
 }
 
-/* Horizontal Rules */
+/* ======= Horizontal Rules ======= */
 hr {
     border-top: 4px solid #677D6A;
     border-bottom-color: #677D6A;
     border-radius: 15px;
 }
 
-/* Sections */
+/* ======= Sections ======= */
 section {
     margin: 20px;
     margin-left: 40px;
-    
-    /* Maybe changes */
     background-color: #f4f4f4;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 10px 10px #531e0e;
 }
 
-/* Section Headings */
+/* ======= Section Headings ======= */
 section h2 {
     margin: 0px;
     color: #000000;
@@ -136,7 +129,7 @@ section h2 {
     font-style: normal;
 }
 
-/* Paragraph Styles */
+/* ======= Paragraph Styles ======= */
 section p {
     font-family: "STIX Two Text", serif;
     font-optical-sizing: auto;
@@ -161,7 +154,7 @@ ul.education {
     font-size: 16px;
 }
 
-/* link styles */
+/* ======= link styles ======= */
 section a {
     color: #000000;
     text-decoration: none;
@@ -171,7 +164,7 @@ section a:hover {
     font-size: 18px;
 }
 
-/* List Styles */
+/* ======= List Styles ======= */
 ul {
     list-style-type: square;
     font-family: "STIX Two Text", serif;
@@ -197,7 +190,7 @@ dl dd {
     font-style: italic;
 }
 
-/* Project Section */
+/* ======= Project Section ======= */
 .three-col {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -245,14 +238,14 @@ ul.ulCard {
     font-size: 18px;
 }
 
-/* Contact Page Styles */
+/* ======= Contact Page Styles ======= */
 .one-col {
     display: grid;
     grid-template-columns: 1;
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    align-items: center;
+    justify-content: center;
 }
 
 form {
@@ -260,7 +253,13 @@ form {
 }
 
 form input, form textarea {
-    
+    width: 1000px;
+    height: 20px;
+}
+
+form textarea {
+    width: 1000px;
+    height: 100px;
 }
 
 form label {
@@ -270,7 +269,9 @@ form label {
     font-style: normal;
 }
 
-form input:focus, form textarea:focus {}
+form input:focus, form textarea:focus {
+    border-radius: 5px;
+}
 
 form button {
     font-family: "STIX Two Text", serif;
@@ -279,4 +280,6 @@ form button {
     font-style: normal;
 }
 
-form button:hover {}
+form button:hover {
+    box-shadow: 2px 2px 3px #531e0e;
+}
