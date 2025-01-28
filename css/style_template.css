@@ -14,15 +14,6 @@ body {
     justify-content: center;
 }
 
-p.nav {
-    margin: 10px;
-    font-family: "Newsreader", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 17px;
-} 
-
 /* Nav Styles */
 nav {
     margin: 0px;
@@ -32,11 +23,25 @@ nav {
     display: flex; 
 }
 
-nav p, nav a {}
+nav p, nav a {
+    margin: 10px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 17px;
+}
 
-nav a {}
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
 
-nav a:hover {}
+nav a:hover {
+    color: #F8E1B7;
+    font-size: 18px;
+    font-style: bold;
+}
 
 /* Footer Styles */
 footer {
@@ -52,7 +57,9 @@ footer {
     font-size: 17px;
 }
 
-footer a {}
+footer a {
+    
+}
 
 footer a:hover {}
 
